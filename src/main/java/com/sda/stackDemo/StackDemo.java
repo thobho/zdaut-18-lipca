@@ -36,4 +36,12 @@ public class StackDemo {
     }
 
 
+    public static void method5() {
+        System.out.println("Method 2 started");
+        throw new IllegalArgumentException("Informacja w wyjątku");
+    }
+
+
+
+
 }
