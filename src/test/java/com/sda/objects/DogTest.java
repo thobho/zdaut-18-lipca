@@ -7,7 +7,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class DogTest {
 
 
-    // () -> {} wyrażenie lambda w Java
     @Test
     public void shouldNotCreateDogWhenWeightLowerThanZero(){
         assertThrows(
@@ -15,6 +14,11 @@ class DogTest {
                 () -> { new Dog("asd", -1); },
                 "Niepoprawna waga psa"
         );
+
+    }
+
+    @Test
+    public void test(){
 
     }
 
